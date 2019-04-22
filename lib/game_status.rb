@@ -16,3 +16,7 @@ end
 def full?(board)
   board.all? {|place| place == "X" || place == "O"}
 end
+
+def draw?(board)
+  !won?(board) if full?(board)
+end
