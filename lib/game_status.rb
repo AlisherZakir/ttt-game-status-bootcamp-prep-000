@@ -12,3 +12,4 @@ WIN_COMBINATION.each do |comb|
   end
   return false
 end
+end
