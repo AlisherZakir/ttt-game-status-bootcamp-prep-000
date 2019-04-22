@@ -12,3 +12,7 @@ WIN_COMBINATIONS.each do |comb|
   end
   return false
 end
+
+def full?(board)
+  board.all? {|place| place == "X" || place == "O"}
+end
